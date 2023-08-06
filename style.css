@@ -44,7 +44,7 @@ p {
 
 .primary-link {
   border-radius: 4px;
-  padding: 20px 15px;
+  padding: 15px 10px;
   text-decoration: none;
   text-transform: capitalize;
   background: var(--primary-color);
@@ -54,7 +54,7 @@ p {
 
 .secondary-link {
   border-radius: 4px;
-  padding: 20px 15px;
+  padding: 15px 10px;
   text-decoration: none;
   text-transform: capitalize;
   color: var(--primary-color);
@@ -85,4 +85,12 @@ p {
 
 .email-link:hover {
   text-decoration: underline;
+}
+@media (max-width:576px) {
+  h1{
+    font-size: 40px;
+  }
+  h2{
+    font-size: 30px;
+  }
 }
